@@ -21,7 +21,7 @@ ARG version="0.11.0"
 LABEL caddy_version="$version"
 
 # Let's Encrypt Agreement
-ENV ACME_AGREE="false"
+ENV ACME_AGREE="true"
 
 RUN apk add --no-cache openssh-client git
 
